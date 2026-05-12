@@ -1,10 +1,14 @@
-@media screen {
-}
-#Tomat-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#pizza-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 800px) {
+  #Tomat-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #pizza-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #header-section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
 }
