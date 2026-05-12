@@ -11,4 +11,10 @@
     display: grid;
     grid-template-columns: 1fr auto;
   }
+  #baking-pizza {
+    grid-row: 2;
+  }
+  #pizza-text {
+    grid-row: 1;
+  }
 }
