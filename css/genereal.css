@@ -1,0 +1,6 @@
+#header-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: #e3abb6;
+  align-items: center;
+}
