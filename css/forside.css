@@ -1,0 +1,82 @@
+/* layout css */
+@media (min-width: 800px) {
+  #Tomat-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #pizza-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #pizza-section > div:first-child {
+    grid-column: 2;
+  }
+  #pizza-section > div:last-child {
+    grid-column: 1;
+  }
+  #header-section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  #pizza-section {
+    align-items: center;
+  }
+  #baking-pizza {
+    grid-column: 2;
+  }
+  #pizza-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #adress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* general css */
+#header-section {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+#header-section nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+.background-image {
+  display: block;
+  object-fit: cover;
+}
+button {
+  background-color: #ffffff;
+  border: black solid 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0;
+}
+button + button {
+  margin-left: 10px;
+}
+button a {
+  color: black;
+  text-decoration: none;
+}
+main {
+  background-color: #e3abb6;
+}
+footer {
+  background-color: #ddd5d5;
+}
+h2 {
+  display: inline-block;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 0.3em;
+}
