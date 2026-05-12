@@ -1,0 +1,10 @@
+@media screen {
+}
+#Tomat-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#pizza-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

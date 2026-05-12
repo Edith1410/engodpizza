@@ -4,3 +4,9 @@
   background-color: #e3abb6;
   align-items: center;
 }
+.background-image {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
