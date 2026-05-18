@@ -1,3 +1,37 @@
+@media (min-width: 800px) {
+  h3,
+  p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  h1,
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 body {
   background-color: #e3abb6;
+}
+
+header {
+  background-color: #ddd5d5;
+  height: 10rem;
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+.galleri {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  img {
+    width: 220px;
+    height: 380px;
+    object-fit: cover;
+  }
 }
