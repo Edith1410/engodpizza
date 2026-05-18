@@ -1,5 +1,5 @@
 /* layout css */
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   #Tomat-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,17 +8,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  #pizza-section > div:first-child {
+  /* #pizza-section > div:first-child {
     grid-column: 2;
   }
   #pizza-section > div:last-child {
     grid-column: 1;
-  }
+  } */
   #header-section {
     display: grid;
     grid-template-columns: 1fr auto;
   }
-  #pizza-section {
+  #pizza-section,
+  #Tomat-section {
     align-items: center;
   }
   #baking-pizza {
@@ -31,10 +32,44 @@
   #footer-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
   }
-  #adress {
+  #adress,
+  #watch,
+  #phone {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media (max-width: 1200px) {
+  #footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  #adress,
+  #watch,
+  #phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  #header-section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  .background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 800px) {
+    .background-image {
+      max-height: 35vh;
+    }
   }
 }
 
@@ -79,4 +114,18 @@ h2 {
   display: inline-block;
   border-bottom: 2px dotted #000;
   padding-bottom: 0.3em;
+}
+.footer-pic {
+  max-height: 70px;
+}
+#baking-pizza,
+#tomat-pic {
+  padding: 10px;
+  border-radius: 60px;
+}
+p,
+h1,
+h2,
+h3 {
+  padding: 20px;
 }
