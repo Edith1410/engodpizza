@@ -1,3 +1,27 @@
+/* fonts */
+@font-face {
+  font-family: "InterBlack";
+  src: url("../fonts/Inter_18pt-Black.woff") format("woff");
+  font-weight: normal;
+}
+h1,
+h2,
+h3 {
+  font-family: "InterBlack";
+  font-style: oblique;
+}
+@font-face {
+  font-family: "InterNormal";
+  src: url("../fonts/Inter-VariableFont_opsz\,wght.woff");
+  font-weight: normal;
+}
+p {
+  font-family: "InterNormal";
+}
+button {
+  font-family: "InterNormal";
+  font-style: italic;
+}
 /* layout css */
 @media (min-width: 1200px) {
   #Tomat-section {
@@ -88,7 +112,7 @@
   object-fit: cover;
 }
 button {
-  background-color: #ffffff;
+  background-color: #e3abb6;
   border: black solid 2px;
   border-radius: 15px;
   padding: 10px;
@@ -105,7 +129,7 @@ main {
   background-color: #e3abb6;
 }
 footer {
-  background-color: #ddd5d5;
+  background-color: #c97c8f;
 }
 h2 {
   display: inline-block;
@@ -137,7 +161,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f7f2f0;
+    background: #c97c8f;
     padding: 40px 60px;
     gap: 40px;
     font-family: "Georgia", serif;
