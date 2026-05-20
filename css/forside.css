@@ -8,12 +8,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /* #pizza-section > div:first-child {
+  #pizza-section > div:first-child {
     grid-column: 2;
+    grid-row: 1;
   }
   #pizza-section > div:last-child {
     grid-column: 1;
-  } */
+    grid-row: 1;
+  }
+
   #header-section {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -22,13 +25,7 @@
   #Tomat-section {
     align-items: center;
   }
-  #baking-pizza {
-    grid-column: 2;
-  }
-  #pizza-text {
-    grid-column: 1;
-    grid-row: 1;
-  }
+
   #footer-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,11 +40,11 @@
   }
 }
 @media (max-width: 1200px) {
-  #footer-section {
+  /* #footer-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-  }
+  } */
   #adress,
   #watch,
   #phone {
@@ -127,5 +124,54 @@ p,
 h1,
 h2,
 h3 {
-  padding: 20px;
+  padding: 60px;
+  margin: 20px;
+}
+img {
+  display: block;
+  object-fit: cover;
+}
+
+/* footer: */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f2f0;
+  padding: 40px 60px;
+  gap: 40px;
+  font-family: "Georgia", serif;
+}
+
+.footer-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+  min-width: 280px;
+}
+
+.footer-item h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-item p {
+  margin: 4px 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.icon {
+  font-size: 42px;
+  line-height: 1;
+  color: #222;
+}
+
+.divider {
+  width: 1px;
+  height: 110px;
+  border-left: 2px dotted #555;
 }
