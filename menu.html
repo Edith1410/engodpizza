@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,12 +8,20 @@
   </head>
   <body>
     <header>
-      <img src="img/" alt="" />
+      <a href="index.html"><img src="img/logo.png" alt="" /></a>
 
-      <a href="index.html">FORSIDE</a>
-      <a href="menu.html">MENU</a>
+      <nav>
+        <a href="index.html" class="link">FORSIDE</a>
+        <a href="menu.html" class="link">MENU</a>
+        <a href="" class="link">KONTAKT</a>
+      </nav>
     </header>
-    <h1>PIZZA</h1>
+    <div class="h1-wrapper">
+      <h1>PIZZA</h1>
+    </div>
+    <div class="pris">
+      <p>105</p>
+    </div>
     <h3>1. MARGATITA</h3>
     <p>Tomatsauce, mozzarellaost, ko-mozzaella, basillikum,</p>
     <h3>2. SKIPPER</h3>
@@ -41,8 +49,9 @@
     <p>Tomatsauce, mozzarellaost, pølser, sprød bacon, pepperoni</p>
     <h3>11. POLO</h3>
     <p>Tomatsauce, mozzarellaost, pesto, kyllingbryst, sprød bacon</p>
-
-    <h1>SPECIAL PIZZA</h1>
+    <div class="h1-wrapper">
+      <h1>SPECIAL PIZZA</h1>
+    </div>
     <h3>12. ARTHUR</h3>
     <p>Tomatsauce, mozzarellaost, silkeståret kartofler, sprød bacon, pesto, frisk rosmarin</p>
     <h3>13. SICILIA</h3>
@@ -74,7 +83,9 @@
       <img src="img/stemningsbillede-6.jpg" alt="" />
     </div>
 
-    <h1>HVID PIZZA</h1>
+    <div class="h1-wrapper">
+      <h1>HVID PIZZA</h1>
+    </div>
     <h2>LAVET PÅ EN BASE UDEN TOMATSAUCE</h2>
     <h3>24. KARTOFFELPIZZA</h3>
     <p>Dansk mozzarellaost, ricotta ost, silkeståret kartoffel, basillikumspesto</p>
@@ -83,7 +94,9 @@
     <h3>26. TOTUFO</h3>
     <p>Dansk mozzarellaost, silkeståret kartoffel, trøffelolie</p>
 
-    <h1>BØRNE PIZZA</h1>
+    <div class="h1-wrapper">
+      <h1>B😀RNE PIZZA</h1>
+    </div>
     <h3>27. EMIL</h3>
     <p>Tomat, ost, skinke</p>
     <h3>28. MICKEY</h3>
@@ -93,19 +106,59 @@
     <h3>30. ARZU</h3>
     <p>Tomat, ost, pepperoni</p>
 
-    <h1>SANDWICH</h1>
+    <div class="h1-wrapper">
+      <h1>SANDWICH</h1>
+    </div>
     <h2>ALLE SANDSWICH ER MED OST, RUCCULA, CHERRYTOMATER, OG PESTO</h2>
     <h3>31. SKINKE</h3>
     <h3>32. KYLLING OG BACON</h3>
     <h3>33. PARMASKINKE</h3>
 
-    <h1>SALAT</h1>
+    <div class="h1-wrapper">
+      <h1>SALAT</h1>
+    </div>
     <h3>34. TOMATSALAT</h3>
     <p>cherrytomater, ruccula, mozzarellaost, balsamico, basilikum, rødløg, parmasanost</p>
     <h3>35. KYLLINGESALAT</h3>
     <p>Kylling, tomat, ruccula, mozzarellaost, parmasanost, pesto</p>
 
-    <h1>HVIDLØGSBRØD</h1>
+    <div class="h1-wrapper">
+      <h1>HVIDLØGSBRØD</h1>
+    </div>
     <h2>CHERRYTOMATER & MOZZARELLAOST</h2>
+
+    <footer>
+      <div id="footer-section">
+        <div id="adress">
+          <div>
+            <img class="footer-pic" src="img/pin.png" alt="" />
+          </div>
+          <div>
+            <h3>Adresse</h3>
+            <p>Havnegade 6</p>
+            <p>3600 Frederiksund</p>
+          </div>
+        </div>
+        <div id="phone">
+          <div>
+            <img class="footer-pic" src="img/Phone.png" alt="" />
+          </div>
+          <div>
+            <h3>Telefon</h3>
+            <p>47 38 52 54</p>
+          </div>
+        </div>
+        <div id="watch">
+          <div>
+            <img class="footer-pic" src="img/watch.png" alt="" />
+          </div>
+          <div>
+            <h3>Åbningstider</h3>
+            <p>Tirsdag-Søndag</p>
+            <p>Kl. 16-21</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
